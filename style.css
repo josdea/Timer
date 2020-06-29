@@ -1,0 +1,21 @@
+#text {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.5em;
+  color: white;
+}
+#message {
+  font-size: 1.1em;
+}
+#countdown {
+  font-family: "Roboto Mono", monospace;
+  font-size: 9em;
+}
+#myVideo {
+  filter: opacity(85%);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
