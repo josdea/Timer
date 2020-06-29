@@ -1,7 +1,7 @@
 function timerPrompt() {
   let t = "10:00";
   t = prompt(
-    "Please enter countdown time. Refresh the page to start again. (ex. '10:00')",
+    "Please enter countdown time. Refresh the page to start again. (ex. '10:00') [Created by Josh Dean 2020]",
     t
   );
   let intMinutes = t.replace(/(\d?\d):(\d\d)/g, "$1");
